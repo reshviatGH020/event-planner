@@ -280,7 +280,7 @@ header{
 }
 .header-bg {
   position: relative;
-  height: 750px;
+  height: 705px;
   overflow: hidden;
 }
 
@@ -437,7 +437,12 @@ Header CTA ========*/
     -o-transform: skew(-15deg);
     transform: skew(-15deg);
   }
+
  @media (max-width:500px){
+  .event {
+    display: none;
+  }
+
   .entry-content{
      
     width: 350px;
@@ -464,7 +469,8 @@ Header CTA ========*/
     border-top: 5px solid white;
 
 }
-.entry-title a{
+.entry-title a {
+  font-size: 36px;
   color: black;
   transform: skew(-15deg);
 }
@@ -1419,7 +1425,7 @@ font-weight: bold;
 .address li span {
     padding-bottom: 10px;
     position: relative;
-    left: 30px;
+    left: 0px;
 }
 .form-control {
     box-shadow: none;
